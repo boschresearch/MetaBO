@@ -1,0 +1,19 @@
+name: metabo
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - gpy=1.9.8=py36hd352d35_0
+  - matplotlib=3.1.0=py36h5429711_0
+  - numpy=1.16.4=py36h7e9f1db_0
+  - pip=19.1.1=py36_0
+  - python=3.6.8=h0371630_0
+  - scipy=1.2.1=py36h7c811a0_0
+  - sympy=1.4=py36_0
+  - pip:
+    - gym==0.12.5
+    - namedlist==1.7
+    - sobol-seq==0.1.2
+    - torch==1.1.0
+    - torchvision==0.3.0
+    - scikit-learn=0.21.3
